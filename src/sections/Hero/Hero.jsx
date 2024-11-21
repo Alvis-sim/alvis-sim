@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg'
 import githubDark from '../../assets/github-dark.svg'
 import linkedinLight from '../../assets/linkedin-light.svg'
 import linkedinDark from '../../assets/linkedin-dark.svg'
-import CV from '../../assets/cv.pdf'
+import CV from '../../assets/cv2.pdf'
 import { useTheme } from '../../common/ThemeContext'
 
 function Hero() {
@@ -44,7 +44,7 @@ function Hero() {
                 <a href="https://github.com/Alvis-sim" target="_blank">
                     <img src={githubIcon} alt="Github Icon" />
                 </a>
-                <a href="https://linkedin.com/Alvis-sim" target="_blank">
+                <a href="https://www.linkedin.com/in/alvis-sim/" target="_blank">
                     <img src={linkedinIcon} alt="linkedin Icon" />
                 </a>
             </span>
