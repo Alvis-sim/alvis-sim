@@ -4,7 +4,10 @@ function Contact() {
   return (
     <section id="contact" className={styles.container}>
       <h1 className="sectionTitle">Contact</h1>
-      <form action="">
+      <form 
+        action="https://formspree.io/f/xeoqzdgn" //Formspree form ID
+        method="POST"
+      >
         <div className="formGroup">
           <label htmlFor="name" hidden>
             Name
@@ -22,7 +25,7 @@ function Contact() {
             Email
           </label>
           <input
-            type="text"
+            type="email" // Make sure this is 'email' for proper validation
             name="email"
             id="email"
             placeholder="Email"
@@ -37,7 +40,8 @@ function Contact() {
             name="message"
             id="message"
             placeholder="Message"
-            required></textarea>
+            required
+          ></textarea>
         </div>
         <input className="hover btn" type="submit" value="Submit" />
       </form>
