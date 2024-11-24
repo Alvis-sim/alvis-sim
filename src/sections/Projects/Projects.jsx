@@ -1,6 +1,6 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
+import bulb from '../../assets/bulb.webp'
+import auction from '../../assets/auctioneer.webp'
 import hipsster from '../../assets/hipsster.png';
 import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
@@ -11,26 +11,26 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={bulb}
+          link="https://alvissim.com/random-quote"
+          h3="Quotes"
+          p="To feel inspired"
         />
         <ProjectCard
-          src={freshBurger}
+          src={auction}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          h3="BidBestie"
+          p="Auction Platform"
         />
         <ProjectCard
           src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           h3="Hipsster"
           p="Glasses Shop"
         />
         <ProjectCard
           src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           h3="FitLift"
           p="Fitness App"
         />
