@@ -14,7 +14,7 @@ function Projects() {
           src={bulb}
           link="https://alvissim.com/random-quote"
           h3="Quotes"
-          p="To feel inspired"
+          p="For Vida"
         />
         <ProjectCard
           src={auction}
