@@ -1,7 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 import bulb from '../../assets/bulb.webp'
 import auction from '../../assets/auctioneer.webp'
-import hipsster from '../../assets/hipsster.png';
+import house from '../../assets/house.webp'
 import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
 
@@ -23,16 +23,16 @@ function Projects() {
           p="Auction Platform"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={house}
+          link="https://github.com/mxtrify/RealtyHub"
+          h3="RealtyHub"
+          p="Real Estate platform"
         />
         <ProjectCard
           src={fitLift}
           link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           h3="FitLift"
-          p="Fitness App"
+          p="Fitness App (WIP)"
         />
       </div>
     </section>
