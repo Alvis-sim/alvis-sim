@@ -50,3 +50,42 @@
     cursor: pointer;
     height: 36px;
 }
+@media (max-width: 768px) { /* Target devices with width 768px or less */
+    .container {
+        width: 90%; /* Make the width responsive */
+        margin-top: 100px; /* Adjust top margin for smaller screens */
+        padding: 20px; /* Add padding for smaller screens */
+    }
+
+    .quote {
+        padding: 40px 20px; /* Reduce padding to fit smaller screens */
+        font-size: 24px; /* Smaller font size for better readability */
+    }
+
+    .line {
+        width: 90%; /* Adjust width to match container's new width */
+    }
+
+    .bottom {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center-align items */
+        margin: 20px 0px; /* Adjust spacing */
+    }
+
+    .icons {
+        margin-top: 10px; /* Add space between author and icons */
+    }
+
+    .author {
+        font-size: 18px; /* Slightly smaller font size */
+        text-align: center; /* Center-align author text */
+    }
+
+    .icons img {
+        height: 30px; /* Slightly smaller icons */
+    }
+
+    .resized-image {
+        width: 30px; /* Adjust resized image width */
+    }
+}
