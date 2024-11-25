@@ -61,7 +61,7 @@ function Hero() {
                 <button className="hover">Resume</button>
             </a> */}
             <a href="#contact"> 
-                <button className="hover">Contact me</button>
+                <button className="hover">Contact</button>
             </a>
         </div>
     </section>
