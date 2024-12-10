@@ -18,7 +18,7 @@ function Projects() {
         />
         <ProjectCard
           src={auction}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://bidbestie.com"
           h3="BidBestie"
           p="Auction Platform"
         />

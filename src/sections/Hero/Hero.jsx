@@ -41,28 +41,28 @@ function Hero() {
             </h1>
             <h2>Full Stack Developer</h2>
             <span>
-                <a href="https://twitter.com/Alvis-sim" target="_blank">
+                {/* <a href="https://twitter.com/Alvis-sim" target="_blank">
                     <img src={twitterIcon} alt="twitter Icon" />
-                </a>
-                <a href="https://github.com/Alvis-sim" target="_blank">
-                    <img src={githubIcon} alt="Github Icon" />
-                </a>
-                {/* <a href="https://www.linkedin.com/in/alvis-sim/" target="_blank">
-                    <img src={linkedinIcon} alt="linkedin Icon" />
                 </a> */}
                 <a href="https://www.instagram.com/alvis_sim/" target="_blank">
                     <img src={igIcon} alt="Instagram Icon" />
+                </a>               
+                <a href="https://github.com/Alvis-sim" target="_blank">
+                    <img src={githubIcon} alt="Github Icon" />
+                </a>
+                <a href="https://www.linkedin.com/in/alvis-sim/" target="_blank">
+                    <img src={linkedinIcon} alt="linkedin Icon" />
                 </a>
             </span>
             <p className={styles.description}>
                 Master of Chatgpt and the ancient language of 'It Worked Yesterday.'
             </p>
-            {/* <a href={CV} download> 
+            <a href={CV} download> 
                 <button className="hover">Resume</button>
-            </a> */}
-            <a href="#contact"> 
-                <button className="hover">Contact</button>
             </a>
+            {/* <a href="#contact"> 
+                <button className="hover">Contact</button>
+            </a> */}
         </div>
     </section>
   )
